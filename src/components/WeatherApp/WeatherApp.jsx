@@ -46,8 +46,8 @@ const WeatherApp = () => {
       <div>
         <h1 className="text-6xl">Weather App</h1>
       </div>
-      <div className="flex flex-col md:min-h-[450px] items-center w-[92%] h-[60vh] bg-slate-600 md:w-[380px] rounded-xl">
-        <div className="flex mt-8 px-2">
+      <div className="flex flex-col md:min-h-[450px] items-center w-[93%] h-[60vh] bg-slate-600 md:w-[380px] rounded-xl">
+        <div className="flex mt-8 px-2 w-[92%]">
           <div>
             <input
               type="search"
@@ -62,7 +62,7 @@ const WeatherApp = () => {
               src={searchImage}
               alt=""
               onClick={handleSearch}
-              className="p-4 cursor-pointer bg-slate-200 rounded-[50px] ml-2 hover:shadow"
+              className="p-3 cursor-pointer bg-slate-200 rounded-[50px] ml-2 mt-1 hover:shadow"
             />
           </div>
         </div>
